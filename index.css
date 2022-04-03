@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.list ul {
+    font-size: large;
+
+    color: red;
+
+  }
+
+  .Subtitle h2 {
+    color: black;
+  }
+
+  img {
+   max-width: 100%;
+  height: auto;
+  border: 10px solid rgb(0, 255, 149);
+  
+  }
+
+ body {background-color:rgb(228, 241, 204);
+  font-family: 'Indie Flower', cursive;}
+
+ header{
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  
+  padding: 40px;
+  border: 2px solid rgb(0, 0, 0);
+}
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.Subtitle{
+
+  position: relative;
+
+}
+div.Subtitle{
+  
+  display: flex;
+  justify-content: center;
+  
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+div.dropdown {
+  left: 50% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 0) !important;
+ 
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e9eee3;
+  min-width: 160px;
+  box-shadow: 0px 15px 15px 15px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 15px 19px;
+  text-decoration: none;
+  display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(200, 218, 188);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
